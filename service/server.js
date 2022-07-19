@@ -10,7 +10,7 @@ app.get('/greeting/:communityID', (req, res) => {
 });
 
 app.get('/kyma', (req, res) => {
-  res.send(`Hello Kyma 🙂`);
+  res.send(`Hello Kyma.......... 🙂`);
 });
 
 const PORT = process.env.PORT || 8080;
